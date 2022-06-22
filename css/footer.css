@@ -1,0 +1,55 @@
+
+
+/*footer*/
+.footer1{
+	display: block;
+
+}
+
+.footer2{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.footer3, .footer4, .footer5{
+	margin: 20px;
+	padding: 20px;
+	width: 400px;
+
+
+}
+
+.footer3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+
+
+}
+
+.footer3 a{
+	padding: 40px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer4{
+	text-align: center;
+	padding-top: 5%;
+}
+
+.footer6{
+	text-align: center;
+}
+.footer7{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer7 img{
+	width: 100px;
+}

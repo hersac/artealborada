@@ -1,0 +1,54 @@
+
+.section3{
+    background: none;
+    text-align: center;
+}
+
+.content3 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:  'Licorice', cursive;
+    font-size: 40px;
+}
+
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#pictures {
+    width: 900px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 300px;
+    transition: 1s;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.btnStore{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.btnStore a{
+    text-decoration: none;
+    color: #000;
+    font-family:  'Licorice', cursive;
+}
+
+#btnNext, #btnBack{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+
+}
+
+.btnCarousel{
+    padding: 255px 10px;
+}

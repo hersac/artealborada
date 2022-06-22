@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte Alborada</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/contacto.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/conocenos.css">
+    <link rel="stylesheet" type="text/css" href="./css/store.css">
+    <link rel="stylesheet" type="text/css" href="./css/opinion.css?v=<?php echo time(); ?>">
+
+    <!--Scripts-->
+    <script type="text/javascript" src="./js/btnFunctions.js"></script>
+    <script type="text/javascript" src="./js/movingTab.js"></script>
+    <script type="text/javascript" src="./js/all.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+    <!--Links-->
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+
+        <!--Menu de navegación-->
+
+    <div name="content" class="content" id="content"> 
+
+        <button name="btnMenu" class="btnMenu" id="btnMenu" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+        
+
+        <nav name="nav" class="nav" id="nav">
+            <ul name="menu" class="menu" id="menu">
+                <li id="home"><a href="#section1"><i class="fas fa-home"></i> Lo Último</a></li>
+                <li id="conoce"><a href="#section2"><i class="fas fa-palette"></i> Conócenos</a></li>
+                <li id="store"><a href="#section3"><i class="fas fa-store"></i> Store</a></li>
+                <li id="opinion"><a href="#section4"><i class="fas fa-heart"></i> Opiniones</a></li>
+                <li id="contact"><a href="#section5"><i class="fas fa-mobile-alt"></i> Contacto</a></li>
+
+                <button type="" name="btnLogin" class="btnLogin" id="btnLogin" onclick="showMenuLogin()"><i class="fas fa-user"></i></button>
+                <button type="" name="btnCarrito" class="btnCarrito" id="btnCarrito" onclick="showMenuCarrito()"><i class="fas fa-shopping-cart"></i></button>
+            </ul>
+
+        </nav>
+        <br>
+    </div>
+
+        <!-- Seccion de ususario compra -->
+
+
+    <div name="loginMenu" class="loginMenu" id="loginMenu">
+        <h5>Inicia Sesión</h5>
+        <form>
+            <input type="email" name="user" class="user" id="user" placeholder="Usuario" required>
+            <input type="password" name="password" class="password" id="password" placeholder="Contraseña" required>
+            <input type="submit" name="btnEntrar" class="btnEntrar" id="btnEntrar" value="Entrar">
+        </form>
+        <br>
+        <button name="btnRegistro" class="btnRegistro" id="btnRegistro" onclick="showMenuRegistro()">Registrarse</button>
+    </div>
+
+    <div name="register" class="register" id="register">
+
+        <div name="btnClose" class="btnClose" id="btnClose" onclick="closeMenuRegistro()">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <h5>Registrarse</h5>
+
+        <div class="register2">        
+            <form>
+                <input type="text" name="name" class="name" id="name" placeholder="Nombre*" required>
+                <input type="text" name="lastName" class="lastName" id="lastName" placeholder="Apellido*" required>
+                <input type="password" name="passwd" class="passwd" id="passwd" placeholder="Contraseña" required>
+                <input type="password" name="confirmPwd" class="confirmPwd" id="confirmPwd" placeholder="Confirmar contraseña" required>
+                <input type="submit" name="btnRegister" class="btnRegister" id="btnRegister">
+            </form>
+        </div>
+
+    </div>
+
+        <!--Contenido de pagina-->
+
+    <div name="section1" class="section1" id="section1"> 
+
+            <h1 name="title1" class="title1" id="title1">Lo Último</h1>
+
+        <div name="content1" class="content1" id="content1"> 
+            <section>
+
+               <div data-mc-src="80bca35b-245d-4657-b62a-3ccaad5fe3eb#instagram"></div>
+        
+            <script 
+                src="https://cdn2.woxo.tech/a.js#62466860af8b0000217f051e" 
+                async data-usrc>
+                var linkRemove=document.getElementsByClassName("css-11cewt9");
+                linkRemove.style.dislay="none";
+            </script>
+
+            </section>
+        </div>
+    </div>
+
+    <div name="section2" class="section2" id="section2">
+        
+
+        <div name="content2" class="content2" id="content2"> 
+            <div class="historia" id="historia">
+                <h1 name="title2" class="title2" id="title2">Conocenos!</h1>
+                <div>
+                    <img src="./img/Logo arte alborada 2021 pequeño.png" alt="Logo Arte Alborada">
+                    <p>Arte alborada es una empresa de enfocada en la <b><a title="El concepto de “Expresión Social” se refiere a todos aquellos productos de regalo utilizados para comunicar algún sentimiento, mensaje o idea.">expresión social</a></b> y <b><a title="Se denomina artes decorativas a todas aquellas actividades relacionadas con el arte o la artesanía destinadas a producir objetos con una finalidad a la vez utilitaria y ornamental.">arte decorativo</a></b> creada y dirigida por <b><a title="Licenciada en Educación Artística y Cultural con mas de 10 años de experiencia en el arte">Lonnie Steanny Escobar Sánchez</a></b> en el año 2010 en la ciudad de Neiva - Huila. Ha sido pionera en las diferentes tendencias de  expresión social y ha sido reconocida últimamente como una empresa que destaca por su calidad y servicio en detalles y decoraciones.</p><br>
+
+                    <p>Arte Alborada nace como un pequeño emprendimiento de hogar creada en el año 2009 y fue oficialmente estipulada en el año 2010 ante la cámara y comercio bajo el nombre de Arte Alborada.<br> 
+                </div>
+            </div>
+            <div class="classTable">
+                <div class="mision" id="mision">
+                    <div class="textMision">
+                        <h2>Misión</h2>
+                        <p>aqui va el texto de arte alborada</p>
+                    </div>
+                    <div class="img1">
+                       
+                    </div>
+                </div>
+
+                <div class="vision" id="vision">
+                    <div class="img2">
+                       
+                    </div> 
+                    <div class="textVision">
+                        <div>
+                            <h2>Visión</h2>
+                            <p>aqui va el texto de arte alborada</p>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div name="section3" class="section3" id="section3">
+        <h1 name="title3" class="title3" id="title3">Store</h1>
+
+        <div name="content3" class="content3" id="content3"> 
+            <section>
+                <p>Estos son algunos de nuestros productos ¡Anímate a Comprar!</p>
+
+                <script type="text/javascript" src="./js/carrusel.js"></script>
+
+                    <div class="carousel">
+                        <div class="btnCarousel">
+                            <button id="btnBack"><</button>
+                        </div>
+                        
+                        <div id="pictures"></div>
+
+                        <div class="btnCarousel">
+                            <button id="btnNext">></button>
+                        </div>
+                        
+                    </div>
+
+                    <button class="btnStore" id="btnStore"><a href="">¡Vamos a comprar!</a></button> 
+
+            </section>
+        </div>
+    </div>
+
+    <div name="section4" class="section4" id="section4">
+        <h1 name="title4" class="title4" id="title4">Lo que piensan de nosotros</h1>
+
+        <div name="content3" class="content3" id="content2"> 
+            <section>
+                <div class="opinion" id="op1">
+                    <p><img src="./img/insta.png" alt=""></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, praesentium sapiente est in quos error dolor fuga. A quae atque distinctio libero. Enim, cum? Vel consequuntur beatae corrupti voluptatibus aut.</p>
+                    <p> <?php required_once("./php/opinion.php") ?></a> </p>
+                    
+                </div>
+                <dis class="opinion" id="op2">
+                    
+                </dis>
+                <div class="opinion" id="op3">
+                    
+                </div>
+                <div class="opinion" id="op4">
+                     
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div name="section5" class="section5" id="section5">
+        <h1 name="title5" class="title5" id="title5">Escríbenos!</h1>
+
+        <div name="content3" class="content3" id="content2"> 
+                <form>
+                    <input type="text" name="nombre" class="nombre" id="nombre" placeholder="Nombre/Entidad" required>
+                    <input type="tel" name="telefono" class="telefono" id="telefono" placeholder="Teléfono" required>
+                    <input type="email" name="mail" class="mail" id="mail" placeholder="Email" required>
+                    <textarea type="textarea" name="nombre" class="nombre" id="nombre" placeholder="Mensaje" required></textarea>
+                    <input type="submit" name="enviar" class="enviar" id="enviar"> 
+                </form>
+        </div>
+    </div>
+
+        <!--Footer-->
+
+    <footer name="footer1" class="footer1" id="footer1">
+
+        <div name="footer2" class="footer2" id="footer2">
+
+
+            <div name="footer3" class="footer3" id="footer3">
+                <p><a href="https://www.facebook.com/artealboradaoficial/" target="_blank"><i class="fab fa-facebook"></i></a></p>
+                <p><a href="https://www.instagram.com/arte_alborada/" target="_blank"><i class="fab fa-instagram"></i></a></p>
+            </div>
+
+            <div name="footer4" class="footer4" id="footer4">
+                <p>Todos los derechos reservados © <br> 2013 - 2026</p>
+            </div>
+
+            <div name="footer5" class="footer5" id="footer5">
+                    <p>
+                        <h3>Nos ubicamos</h3>Carrera 1a bis # 64 - 09 Neiva, Huila
+                        <br>
+                        <br>
+                        <h3>Horario</h3>Lunes - Sábado 8:00 AM - 6:00 PM <br> Domingos y festivos solo se realizan entregas
+                    </p>
+            </div>
+        </div>
+
+         <div name="footer6" class="footer6" id="footer6">
+            <p><h3>Medios de pago</h3></p>
+            <div name="footer7" class="footer7" id="footer7">
+                <p><img src="./img/ahorro.png"></p>
+                <p><img src="./img/efecty.png"></p>
+                <p><img src="./img/nequi.png"></p>
+                <p><img src="./img/suchance.png"></p>
+                <p><img src="./img/daviplata.png"></p>
+            </div>
+        </div>
+    </footer>
+
+        <!--Botón de regreso-->
+
+    <button name="up" class="up" id="up" onclick=""><a href="#content"><i class="fas fa-caret-up"></i></a></button>
+</body>
+</html>

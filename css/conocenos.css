@@ -1,0 +1,65 @@
+.section2 img{
+	width: 200px;
+	padding: 0% 41%;
+}
+
+.section2 .historia{
+	background: #ffe361;
+	height: 600px;
+	padding-top: 50px;
+}
+
+.section2 .historia div{
+	padding:  3% 8%;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.historia div a{
+	text-decoration: none;
+	color: #000;
+}
+
+.section2 .classTable{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+.section2 .classTable .mision{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.section2 .classTable .vision{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+}
+
+.section2 .textMision{
+	background: #ffebeb;
+	padding: 25% 10%;
+
+}
+.section2 .textVision{
+	background: #ffc9c9;
+	padding: 25% 10%;
+}
+
+.section2 .img1{
+	background-image: url(../img/img1.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -120px;
+	background-size: cover;
+	animation-duration: 0.3s;
+	animation-name: imgMotion1;
+}
+
+.section2 .img2{
+	background-image: url(../img/img2.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -400px;
+	background-size: cover;
+	animation-duration: 0.3s;
+	animation-name: imgMotion2;
+}
+

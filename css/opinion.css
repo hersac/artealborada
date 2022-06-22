@@ -1,0 +1,21 @@
+.content3 section{
+	display: flex;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.opinion{
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	background: pink;
+	width: 300px;
+	border-radius: 10px;
+}
+.opinion p img{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+}

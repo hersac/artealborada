@@ -1,0 +1,54 @@
+/*Contacto*/
+
+.section5{
+	padding-top: 2%;
+}
+
+.section5 form{
+padding-left: 35%;
+}
+
+.section5 input{
+	display: block;
+	height: 40px;
+	width: 400px;
+	margin: 20px;
+	border: none;
+	font-family: 'Licorice', cursive;
+	font-size: 25px;
+	padding-left: 10px;
+	border-bottom: solid 0.2px #ffe361;
+}
+
+.section5 textarea{
+	display: block;
+	height: 300px;
+	width: 400px;
+	margin: 20px;
+	border: solid 0.1px #ffe361;
+	font-family: 'Licorice', cursive;
+	font-size: 25px;
+	padding-left: 10px;
+	resize: none;
+}
+
+.section5 .enviar{
+	display: block;
+	height: 40px;
+	width: 410px;
+	margin: 20px;
+	border: none;
+	font-family: 'Licorice', cursive;
+	font-size: 25px;
+	text-align: center;
+}
+
+.section5 .enviar:hover{
+	background: #ffe361;
+	color: #000000;
+}
+
+.section5 .enviar:active{
+	background: #ffebeb;
+	color: #ffe361;
+}
